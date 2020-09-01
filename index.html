@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bon Voyage</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <!------------------------------>
+      <!---------- SIDEBAR ----------->
+      <!------------------------------>
+
+      <div id="sidebar">
+        <div id="toggle-btn" class="ion-navicon-round">
+          <h6 class="menutext">Menu</h6>
+        </div>
+
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li onclick="packagepage()">Packages</li>
+          <li onclick="bookingpage()">Book</li>
+          <li onclick="contactUspage()">Contact Us</li>
+        </ul>
+      </div>
+      <!------------------------------>
+      <!----------- TITLE ------------>
+      <!------------------------------>
+      <h1 class="title slideInDown" data-aos="fade-in" data-aos-duration="1000">BON VOYAGE</h1>
+      <h4 class="tag-line" data-aos="fade-up" data-aos-duration="2000">GREAT EXPIERINCES DON'T COME FROM COMFORT ZONES</h4>
+      <button class="home-register" type="button" onclick="register()">
+        Register
+      </button>
+      <button class="home-login" type="button" onclick="login()">Log In</button>
+    </header>
+
+    <!-------------------------------------->
+    <!----------- First Section ------------>
+    <!-------------------------------------->
+    <section class="first-section">
+      <h2 class="section-title" data-aos="zoom-in">WHY CHOOSE US?</h2>
+      <div class="reasons-para">
+        <p class="col span-1-of-2 reasons" data-aos="fade-right">
+          Within easy reach of Victoria, Bon Voyage is welcoming, affordable, and as wild as you like. Here, you live through your
+          senses: Cedar. Sea spray. Wood smoke. You move with the seasons, currents, and tides.
+        </p>
+        <p class="col span-1-of-2 reasons" data-aos="fade-left">
+          This is your gateway to ancient forests, epic hikes, and mighty surf — from eagles and Chinook salmon to Sitka spruce
+          and giant Douglas fir. From here, you can trek, paddle, comb the beaches, or cast your line.
+        </p>
+      </div>
+    </section>
+
+    <!-------------------------------------->
+    <!----------- Second Section ------------>
+    <!-------------------------------------->
+    <section class="second-section">
+      <div class="section1-images">
+        <img src="resources/css/img/Hawaii.jpg" alt="Hawaii" class="firstImage" data-aos="flip-down" />
+        <div class="description1" data-aos="fade-up">
+          <h3>Best Beaches</h3>
+          <p>
+            There's something calming and reassuring about the steady lapping of the waves. The back and forth of the tide-pulled
+            waters can be soothing to the soul. Take some time out to just be.
+          </p>
+        </div>
+
+        <aside>
+          <img src="resources/css/img/Island.jpg" alt="Island" class="SecondImage" data-aos="flip-down" />
+
+          <div class="description2 " data-aos="fade-up">
+            <h3>Best Island</h3>
+            <p>
+              The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FOOTER HTML -->
+    <footer>
+      <div class="row">
+        <div class="col span-1-of-2">
+          <ul class="footer-nav">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">iOS App</a></li>
+            <li><a href="#">Android App</a></li>
+          </ul>
+        </div>
+        <div class="col span-1-of-2">
+          <ul class="social-links">
+            <li>
+              <a href="#"><i class="ion-social-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ion-social-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ion-social-googleplus"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ion-social-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <p>
+          Copyright &copy; 2019 by Bon Voyage. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+
+  <script src="resources/JS/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/Login.css" />
+  </head>
+
+  <body>
+    <div
+      class="BG-img"
+      style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('resources/css/img/TitleBG.jpg');"
+    ></div>
+    <div class="details">
+      <h1 class="title">BON VOYAGE</h1>
+      <h2>Log In</h2>
+      <form action="Login.php" method="POST">
+        <div class="container">
+          <div>
+            <p>Email :</p>
+            <div><input type="email" name="email" required /></div>
+          </div>
+
+          <div>
+            <p>Password :</p>
+            <p><input type="password" name="password" required /></p>
+          </div>
+          <div></div>
+        </div>
+        <p><input type="submit" name="submit" class="submit-btn" value="Submit" /></p>
+      </form>
+    </div>
+  </body>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</html>
